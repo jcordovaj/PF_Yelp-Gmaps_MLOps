@@ -1,9 +1,0 @@
-{
-	"name": "adfyelpymap",
-	"location": "eastus",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "e8a97311-e0f3-4daa-a58f-14ad7264e3eb",
-		"tenantId": "50640584-2a40-4216-a84b-9b3ee0f3f6cf"
-	}
-}
