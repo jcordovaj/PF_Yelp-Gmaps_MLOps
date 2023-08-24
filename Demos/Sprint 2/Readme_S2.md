@@ -1,14 +1,19 @@
 <img src="src\images\logof.jpeg" width="171" height="47">
 
-# Bienvenidos al Proyecto Final
-**No hay plazo que no se venza, ni deuda que no se pague.**
+# Proyecto Final - Google Yelp 
 
-## Índice de contenidos
 
-**[Sobre Nosotros](#1)**
-**[Contexto: Entendimiento y Síntesis del Problema](#2)**
-**[Solución Propuesta](#3)**
-**[KPI para el Modelo de Negocios](#4)**
+## [Índice de contenidos](#0)
+
+**1. [Sobre Nosotros](#1)**
+
+**2. [Contexto: Entendimiento y Síntesis del Problema](#2)**
+
+**3. [Solución Propuesta](#3)**
+
+**4. [KPI para el Modelo de Negocios](#4)**
+
+**5. [Arquitectura del Proyecto](#5)**
 
 ## 1. Sobre Nosotros<a class="anchor" id="1"></a>
 
@@ -156,7 +161,7 @@ El Modelo Entidad-Relación (ER) despliega la estructura y las interacciones de 
 
 [Volver - Índice](#0-0)
 
-## 5. Alcance del Proyecto<a class="anchor" id="1"></a>
+## 6. Alcance del Proyecto<a class="anchor" id="1"></a>
 
 **Alcance Temporal**
 El proyecto se llevará a cabo en un período de seis semanas, divididas en tres Sprints, con una duración de dos semanas cada uno para segmentar las actividades. Durante las primeras cinco semanas, se completarán los hitos planificados, que incluyen la recolección de datos, análisis exploratorio y desarrollo de modelos de machine learning. La última semana se destinará a realizar ajustes, optimización y preparación de la presentación final.
