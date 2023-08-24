@@ -8,7 +8,7 @@
 **[Sobre Nosotros](#1)**
 **[Contexto: Entendimiento y Síntesis del Problema](#2)**
 **[Solución Propuesta](#3)**
-**[KPIs para el Modelo de Negocios](#5)**
+**[KPI para el Modelo de Negocios](#4)**
 
 ## 1. Sobre Nosotros<a class="anchor" id="1"></a>
 
@@ -37,14 +37,16 @@ Sistema de Recomendación: Basado en intereses y perfil del consumidor, recomend
 
 **Pet Care Market: Análisis de Mercado para Modelo de Negocios en la Industria de Mascotas y Afines**
 
-### Elección del modelo parametrizable<a class="anchor" id="1"></a>
+### 3.1 Elección del modelo parametrizable<a class="anchor" id="1"></a>
 En base a toda la data suministrada y a un exhaustivo estudio de mercado se establecieron criterios que permitan que nuestro producto sea escalable y parametrizable. Para ello, se establecieron criterios de selección de la data piloto: 
 En primer medida, nos basamos en el análisis demográfico, que nos permitirá tener un tamaño muestral lo suficientemente representativo, estableciendo el ranking descendente de los estados con mayor densidad poblacional;
-En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo  de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
-En tercer lugar,  se tuvo en cuenta el índice de criminalidad, ya que por el tipo de negocios abarcados en los datos brindados y las necesidades de nuestro cliente resulta una variable a considerar; por lo que se emplea el ranking descendiente de los estados más seguros; 
-En base a estos criterios se seleccionaron los siguientes estados modelo: New Jersey, California y Florida.
+En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
+En tercer lugar, se tuvo en cuenta el índice de criminalidad, ya que por el tipo de negocios abarcados en los datos brindados y las necesidades de nuestro cliente resulta una variable a considerar; por lo que se emplea el ranking descendiente de los estados más seguros; 
+En base a estos criterios se seleccionaron los siguientes estados modelo para la prueba piloto: New Jersey, California y Florida.
 
-**Objetivos específicos:** 
+[Volver - Índice](#0-0)
+
+### 3.2 Objetivos específicos<a class="anchor" id="1"></a>
 1. Asegurar la Disponibilidad de Datos Limpios y Estructurados: Recolectar,
 depurar y disponer la información relevante de plataformas de reseñas
 como Yelp y Google Maps. Esto asegurará la calidad y coherencia de los datos para
@@ -62,7 +64,7 @@ servicios, mediante el uso de las reseñas recopiladas de Yelp y Google Maps.
 
 [Volver - Índice](#0-0)
 
-### nn. Ejes del Proyecto<a class="anchor" id="1"></a>
+### 3.3 Ejes del Proyecto<a class="anchor" id="1"></a>
 
 **Adaptabilidad y Validación Técnica:**
 Ofrecemos una solución personalizada, paramétrica y escalable que se adapta a las necesidades específicas del cliente. Mediante la aplicación de la teoría de las restricciones, validamos la factibilidad técnica de esta propuesta y optamos por la ejecución de un modelo piloto. Esta decisión busca reducir los costos para el cliente, al mismo tiempo que garantiza la viabilidad y efectividad del proyecto.
@@ -82,18 +84,19 @@ Nuestro enfoque en Machine Learning se centrará en desarrollar un modelo basado
 **Visualización Efectiva:**
 Optimizaremos la representación de datos y reduciremos la complejidad visual mediante el uso de técnicas adecuadas. Diseñaremos un story-board personalizado para este propósito. Utilizaremos Looker por su capacidad de integración en entornos web y, para la interacción en entorno local, emplearemos Plotty, aprovechando su versatilidad y funciones interactivas.
 
+[Volver - Índice](#0-0)
 
-## nn. KPIs para el Modelo de Negocios<a class="anchor" id="1"></a>
-Los indicadores clave de rendimiento (KPIs) deben alinearse con los objetivos comerciales del destinatario y proporcionar información esencial para tomar decisiones fundamentadas. En consecuencia, los KPIs pueden variar según el modelo de negocio; con mayor precisión, deben reflejar la estrategia y los objetivos específicos del análisis.
+## 4. KPI para el Modelo de Negocios<a class="anchor" id="1"></a>
+Los indicadores clave de rendimiento (KPI) deben alinearse con los objetivos comerciales del destinatario y proporcionar información esencial para tomar decisiones fundamentadas. En consecuencia, los KPI pueden variar según el modelo de negocio y con mayor precisión, deben reflejar la estrategia y los objetivos específicos del análisis, teniendo en cuenta los criterios "SMART".
 
-Es factible abordar la definición de KPIs desde diferentes perspectivas:
+Es factible abordar la definición de KPI desde diferentes perspectivas:
 Desde la perspectiva de un comerciante, resulta relevante medir aspectos como frecuencias, horarios y atributos clave. Esto implica investigar si existe alguna correlación entre los atributos y las evaluaciones, así como con el comportamiento de compra, las visitas al establecimiento, el crecimiento y el volumen, entre otros factores.
 
-En contraste, desde la perspectiva de un inversionista, cobra importancia evaluar el atractivo del negocio. Esto implica comprender quiénes son los clientes, segmentarlos según sus características; También es relevante determinar el tamaño del mercado o del segmento. Cabe destacar que en este proyecto se proponen KPIs innovadores, diferentes de los indicadores clásicos utilizados para evaluar la rentabilidad, como el ARPU, LTCV/CRM y la plusvalía, entre otros.
+En contraste, desde la perspectiva de un inversionista, cobra importancia evaluar el atractivo del negocio. Esto implica comprender quiénes son los clientes, segmentarlos según sus características; También es relevante determinar el tamaño del mercado o del segmento. Cabe destacar que en este proyecto se proponen KPI innovadores, diferentes de los indicadores clásicos utilizados para evaluar la rentabilidad, como el ARPU, LTCV/CRM y la plusvalía, entre otros.
 
-Esta estrategia de definir KPIs desde múltiples enfoques permite abordar con precisión las necesidades y objetivos específicos del negocio, brindando una perspectiva holística y enriquecedora para la toma de decisiones informadas.
+Esta estrategia de definir KPI desde múltiples enfoques permite abordar con precisión las necesidades y objetivos específicos del negocio, brindando una perspectiva holística y enriquecedora para la toma de decisiones informadas.
 
-***KPIs para Comerciantes:***
+***KPI para Comerciantes***
 
 **1. Impacto de Acciones en Reseñas Positivas:**
 Este indicador mide el éxito de las acciones de marketing y su influencia en la obtención de reseñas positivas. El objetivo es lograr un aumento del 10% en las reseñas positivas durante el próximo trimestre. Se calcula como la diferencia entre la proporción actual de reseñas positivas (Pf) y la proporción de reseñas totales (Tf) respecto a tres meses atrás (Po/To), multiplicado por cien.
@@ -107,27 +110,27 @@ Este indicador evalúa la satisfacción de los clientes a través de un aumento 
 Este indicador busca medir el aumento en los ingresos potenciales a través de mejoras en las calificaciones. El objetivo es lograr un aumento de media unidad en la calificación promedio durante los próximos seis meses, equivalente a un incremento promedio del 3,5% en los ingresos. Se calcula como la diferencia entre la calificación promedio actual (Rf) y la calificación promedio de hace seis meses (Ro), multiplicada por siete.
 *Fórmula:* Índice de Ingresos Potenciales (%) = (Rf - Ro) * 7
 
-***KPI para Inversionistas:***
+***KPI para Inversionistas***
 
 **4. Tasa de Engagement de Usuarios Respecto a la Competencia:**
 Este indicador evalúa el compromiso de los usuarios con respecto a la competencia, midiendo el aumento en el porcentaje de reseñas recibidas en comparación con el promedio de reseñas de negocios de la misma categoría durante seis meses. El objetivo es lograr un aumento del 20% en esta tasa de engagement durante los próximos seis meses. Se calcula como la diferencia entre el promedio de engagement logrado por un negocio (Px) y el engagement promedio del período anterior de seis meses (Po), multiplicado por cien.
 *Fórmula:* Tasa de Engagement de Usuarios (%) = [(|Px - Pt| / Pt) - (|Po - Pto| / Pto)] * 100
 
-Estos KPIs están diseñados para proporcionar información precisa y significativa para la toma de decisiones estratégicas en la industria de mascotas y sectores relacionados. Cada indicador se adapta a los objetivos específicos del análisis y refleja los intereses particulares de los comerciantes y los inversionistas. El análisis de datos y la inteligencia empresarial desempeñarán un papel crucial en el éxito de las operaciones y la toma de decisiones informadas en esta industria competitiva.
+Estos KPI's están diseñados para proporcionar información precisa y significativa para la toma de decisiones estratégicas en la industria de mascotas y sectores relacionados. Cada indicador se adapta a los objetivos específicos del análisis y refleja los intereses particulares de los comerciantes y los inversionistas. El análisis de datos y la inteligencia empresarial desempeñarán un papel crucial en el éxito de las operaciones y la toma de decisiones informadas en esta industria competitiva.
 
 [Volver - Índice](#0-0)
 
-## nn. Arquitectura del Proyecto<a class="anchor" id="1"></a>
+## 5. Arquitectura del Proyecto<a class="anchor" id="1"></a>
 
-**Implementación del Datawarehouse**
+**Implementación del Data Warehouse**
 
-
-En el inicio de este proyecto, el primer paso consiste en cargar los datos en bruto proporcionados y almacenarlos en nuestro Data Lake. Un Data Lake es un sistema de almacenamiento de datos diseñado para almacenar grandes volúmenes de información en su formato original, eliminando la necesidad de una estructuración previa. Esto facilita un acceso rápido y flexible a los datos. En este caso, haremos uso de Google Cloud Storage para guardar los datos sin procesar provenientes de Google y Yelp.
+En el inicio de este proyecto, el primer paso consiste en cargar los datos en bruto proporcionados y almacenarlos en nuestro Data Warehouse. Un Data Warehouse es un sistema de almacenamiento de datos diseñado para almacenar grandes volúmenes de información en su formato original, eliminando la necesidad de una estructuración previa. Esto facilita un acceso rápido y flexible a los datos. En este caso, haremos uso de Google Cloud Storage para guardar los datos sin procesar provenientes de Google y Yelp.
 
 Optamos por utilizar Azure Blob Storage / Google Cloud Services debido a su excepcional interfaz de usuario, altamente intuitiva y completa. Además, sus tarifas competitivas resultan un factor significativo en esta elección.
 
 **Proceso de Transformación de Datos**
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXX  FALTA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
 
 **Automatización a través de Cloud Functions**
 
@@ -151,18 +154,20 @@ Además, este Data Warehouse puede recibir actualizaciones continuas a medida qu
 
 El Modelo Entidad-Relación (ER) despliega la estructura y las interacciones de los datos de Yelp y Google Maps. Incorpora entidades clave como "business," "User" y "Review", cada una con atributos pertinentes. Este modelo se revela esencial para la gestión de la reputación y la toma de decisiones estratégicas en inversiones rentables. Aporta claridad sobre la información esencial requerida para respaldar estas decisiones. La comprensión de la estructura de los datos nos empodera para implementar medidas efectivas para mejorar la reputación y optimizar la rentabilidad en la industria.
 
-**Alcance del Proyecto**
+[Volver - Índice](#0-0)
 
-**Alcance Temporal:**
+## 5. Alcance del Proyecto<a class="anchor" id="1"></a>
+
+**Alcance Temporal**
 El proyecto se llevará a cabo en un período de seis semanas, divididas en tres Sprints, con una duración de dos semanas cada uno para segmentar las actividades. Durante las primeras cinco semanas, se completarán los hitos planificados, que incluyen la recolección de datos, análisis exploratorio y desarrollo de modelos de machine learning. La última semana se destinará a realizar ajustes, optimización y preparación de la presentación final.
 
-**Alcance del Equipo:**
+**Alcance del Equipo**
 El equipo está compuesto por dos miembros, cada uno asumiendo roles específicos de ingeniero de datos, científico de datos y analista de datos. Como ingenieros, nos encargamos de la recolección y depuración de datos; como científicos, desarrollamos modelos de machine learning orientados al análisis de sentimientos y sistemas de recomendación. Además, como analistas, llevamos a cabo el análisis exploratorio de los datos, extrayendo insights y datos relevantes para enriquecer el modelo de negocios. Cada miembro desempeñará funciones específicas para colaborar en todas las etapas. La comunicación y coordinación serán cruciales para integrar exitosamente los componentes del proyecto.
 
-**Alcance Financiero:**
+**Alcance Financiero**
 El alcance financiero del proyecto se enfoca en la utilización de herramientas y recursos gratuitos, sin contar con un presupuesto asignado. El equipo buscará aprovechar opciones gratuitas para cumplir eficientemente con los objetivos del proyecto de la prueba piloto.
 
-**Alcance de la Prueba Piloto:**
+**Alcance de la Prueba Piloto**
 Basándonos en la data suministrada y un minucioso estudio de mercado, se establecieron criterios para asegurar la escalabilidad y parametrización de nuestro producto. Para lograrlo, se consideraron tres parámetros clave. En primer lugar, se analizó el aspecto demográfico, estableciendo un tamaño de muestra representativo a través de un ranking descendente de los estados con mayor densidad poblacional. En segundo lugar, se evaluó el marco sociocultural de diferentes regiones territoriales de Estados Unidos, teniendo en cuenta la diversidad generacional, étnica, cultural y otros factores que influyen en los hábitos de consumo. Por último, se incorporó el índice de criminalidad como variable significativa, considerando los tipos de negocios involucrados y las necesidades del cliente. Se seleccionaron como estados modelo: New Jersey, California y Florida. El enfoque del proyecto se centrará en empresas relacionadas con la categoría 'Pets Care' y similares, estableciendo un modelo parametrizable en los Estados Unidos.
 
 **Aspectos Excluidos del Alcance**
@@ -173,6 +178,8 @@ Adicionalmente, se ha determinado que no se abordará el desarrollo de un tercer
 
 **Alcance de Impacto:**
 El proyecto tiene como objetivo impactar tanto a empresarios como a clientes al proporcionar información valiosa sobre la percepción de los inversionistas y brindar recomendaciones personalizadas. Esto permitirá a los empresarios tomar decisiones estratégicas informadas y mejorar la experiencia del cliente. Mediante datos depurados, análisis exploratorio, modelos de machine learning y un dashboard interactivo, se optimizará la toma de decisiones, la experiencia del cliente y la relación entre ambas partes.
+
+[Volver - Índice](#0-0)
 
 **[Herramientas a usar](#)**:
 1. Google Drive
@@ -186,3 +193,5 @@ El proyecto tiene como objetivo impactar tanto a empresarios como a clientes al 
 9. Visual Studio Code
 10. Google Colab
 11. Looker Studio
+
+[Volver - Índice](#0-0)
