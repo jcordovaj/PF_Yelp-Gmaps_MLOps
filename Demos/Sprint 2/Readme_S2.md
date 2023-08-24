@@ -1,4 +1,4 @@
-<img src="src\images\logof.jpeg" width="171" height="47">
+<img src="src/images/logof.jpeg" width="171" height="47">
 
 # Proyecto Final - Google Yelp 
 
