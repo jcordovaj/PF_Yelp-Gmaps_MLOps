@@ -48,6 +48,9 @@ En primer medida, nos basamos en el análisis demográfico, que nos permitirá t
 En segundo lugar, se tuvo en cuenta el marco sociocultural de distintas regiones territoriales de USA (diferencias en la prevalencia generacional, diversidad de etnias y culturas, clima, etc.), ya que permite tener una visión más global del comportamiento y hábitos de consumo de los clientes, así como proveer diferentes nichos para posibles oportunidades de negocio; 
 En tercer lugar, se tuvo en cuenta el índice de criminalidad, ya que por el tipo de negocios abarcados en los datos brindados y las necesidades de nuestro cliente resulta una variable a considerar; por lo que se emplea el ranking descendiente de los estados más seguros; 
 En base a estos criterios se seleccionaron los siguientes estados modelo para la prueba piloto: New Jersey, California y Florida.
+Adicionalmente, se propone dentro de las categorías definidas en los datos aportados, focalizar el análisis en el segmento de productos y servicios para mascotas, considerando los siguientes indicadores:
+
+En 2021, el valor del mercado global de cuidado de mascotas alcanzó los 150.67 mil millones de dólares, y se proyecta un crecimiento anual compuesto (CAGR) del 5.1 % desde 2022 hasta 2030. Esto se traduce en un mercado estimado de alrededor de 232.140 mil millones de dólares. Otro dato relevante es que en 2021, Estados Unidos contribuyó con el 43 % de la cuota de mercado global. Además, según una encuesta nacional realizada por la Asociación Estadounidense de Productos para Mascotas (APPA), alrededor del 70 % de los hogares estadounidenses tenían una mascota en 2020. 
 
 [Volver - Índice](#0-0)
 
@@ -139,9 +142,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXX  FALTA XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx
 
 **Automatización a través de Cloud Functions**
 
-Para gestionar la extracción, transformación y carga (ETL) de los datos, confiaremos en el servicio Google Cloud Functions y sus funciones. Esta tecnología nos permitirá automatizar el proceso ETL. Las funciones almacenadas en este servicio se vincularán a disparadores que detectan la incorporación de nuevos archivos en nuestro Data Lake. Una vez activados, las funciones de transformación trabajarán en la limpieza y el ajuste de los datos sin procesar. Posteriormente, los datos transformados serán almacenados en nuestro Data Warehouse.
+Para gestionar la extracción, transformación y carga (ETL) de los datos, confiaremos en el servicio Google Cloud Functions y sus funciones. Esta tecnología nos permitirá automatizar el proceso ETL. Las funciones almacenadas en este servicio se vincularán a disparadores que detectan la incorporación de nuevos archivos en nuestra arquitectura. Una vez activados, las funciones de transformación trabajarán en la limpieza y el ajuste de los datos sin procesar. Posteriormente, los datos transformados serán almacenados en nuestro Data Warehouse.
 
-Además, esta automatización simplificará la incorporación de nuevos datos. Una función específica se encargará de preparar y transformar los datos externos recién llegados, ejecutando seguidamente una consulta en Google BigQuery para actualizar nuestros registros actuales.
+Además, esta automatización simplificará la incorporación de nuevos datos, conocido como carga incremental. Una función específica se encargará de preparar y transformar los datos externos recién recibidos, ejecutando seguidamente una consulta en Google BigQuery para actualizar nuestros registros actuales.
 
 **Data Warehouse y su Impacto en el Análisis**
 
