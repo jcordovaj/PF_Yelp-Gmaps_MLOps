@@ -1,0 +1,13 @@
+Los archivos 'Test', corresponden al procesamiento de muestras de 100K registros tomados al azar.
+
+test_gmetadata.jsonl
+test_greviews.jsonl
+test_ybusiness.jsonl
+test_Yreviews.jsonl
+
+Los archivos 'Full', corresponden al procesamiento de los archivos originales, con la totalidad de los registros.
+
+full_gmetadata.jsonl
+full_greviews.jsonl
+full_ybusiness.jsonl
+full_yreviews.jsonl
